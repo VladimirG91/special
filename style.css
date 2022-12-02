@@ -589,7 +589,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  background: url('../images/bg1.jpg') no-repeat center top fixed;
+  /* background: url('../images/bg1.jpg') no-repeat center top fixed; */
   background-size: cover;
   text-shadow: 2px 2px 2px rgb(0 0 0);
 }
@@ -611,7 +611,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  filter: brightness(0.8);
+  filter: brightness(0.6);
 }
 .video__wrapper iframe {
   position: absolute;
@@ -619,7 +619,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .video__item {
